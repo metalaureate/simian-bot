@@ -9,7 +9,7 @@
     <file path="/Dummy.txt" changelist="ab18dfc1-7c1a-4148-ad1d-41cd07f7f3c0" time="1379700875939" ignored="false" />
     <file path="/.env" changelist="ab18dfc1-7c1a-4148-ad1d-41cd07f7f3c0" time="1379702123395" ignored="false" />
     <file path="/package.json" changelist="ab18dfc1-7c1a-4148-ad1d-41cd07f7f3c0" time="1379702554827" ignored="false" />
-    <file path="/ira-bot.js" changelist="ab18dfc1-7c1a-4148-ad1d-41cd07f7f3c0" time="1379703478666" ignored="false" />
+    <file path="/ira-bot.js" changelist="ab18dfc1-7c1a-4148-ad1d-41cd07f7f3c0" time="1379703664346" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="help.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/help.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="33" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+            <state line="78" column="45" selection-start="1730" selection-end="1771" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1376580644000" expanded="true" signature="377:985" placeholder="..." />
                 <marker date="1376580644000" expanded="true" signature="386:876" placeholder="..." />
@@ -88,7 +88,7 @@
       <file leaf-file-name="ira-bot.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/ira-bot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="42" selection-start="127" selection-end="127" vertical-scroll-proportion="0.025839793">
+            <state line="6" column="25" selection-start="130" selection-end="130" vertical-scroll-proportion="0.07751938">
               <folding />
             </state>
           </provider>
@@ -413,24 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/help.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="33" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1376580644000" expanded="true" signature="377:985" placeholder="..." />
-            <marker date="1376580644000" expanded="true" signature="386:876" placeholder="..." />
-            <marker date="1376580644000" expanded="true" signature="442:866" placeholder="..." />
-            <marker date="1376580644000" expanded="true" signature="453:612" placeholder="{...}" />
-            <marker date="1376580644000" expanded="true" signature="620:666" placeholder="{...}" />
-            <marker date="1376580644000" expanded="true" signature="681:711" placeholder="{...}" />
-            <marker date="1376580644000" expanded="true" signature="718:814" placeholder="{...}" />
-            <marker date="1376580644000" expanded="true" signature="832:856" placeholder="{...}" />
-            <marker date="1376580644000" expanded="true" signature="885:977" placeholder="..." />
-            <marker date="1376580644000" expanded="true" signature="938:967" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/math.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="41" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
@@ -466,9 +448,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/help.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="45" selection-start="1730" selection-end="1771" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1376580644000" expanded="true" signature="377:985" placeholder="..." />
+            <marker date="1376580644000" expanded="true" signature="386:876" placeholder="..." />
+            <marker date="1376580644000" expanded="true" signature="442:866" placeholder="..." />
+            <marker date="1376580644000" expanded="true" signature="453:612" placeholder="{...}" />
+            <marker date="1376580644000" expanded="true" signature="620:666" placeholder="{...}" />
+            <marker date="1376580644000" expanded="true" signature="681:711" placeholder="{...}" />
+            <marker date="1376580644000" expanded="true" signature="718:814" placeholder="{...}" />
+            <marker date="1376580644000" expanded="true" signature="832:856" placeholder="{...}" />
+            <marker date="1376580644000" expanded="true" signature="885:977" placeholder="..." />
+            <marker date="1376580644000" expanded="true" signature="938:967" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ira-bot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="127" selection-end="127" vertical-scroll-proportion="0.025839793">
+        <state line="6" column="25" selection-start="130" selection-end="130" vertical-scroll-proportion="0.07751938">
           <folding />
         </state>
       </provider>
