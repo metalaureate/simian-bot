@@ -9,7 +9,7 @@
     <file path="/Dummy.txt" changelist="ab18dfc1-7c1a-4148-ad1d-41cd07f7f3c0" time="1379700875939" ignored="false" />
     <file path="/.env" changelist="ab18dfc1-7c1a-4148-ad1d-41cd07f7f3c0" time="1379702123395" ignored="false" />
     <file path="/package.json" changelist="ab18dfc1-7c1a-4148-ad1d-41cd07f7f3c0" time="1379702554827" ignored="false" />
-    <file path="/ira-bot.js" changelist="ab18dfc1-7c1a-4148-ad1d-41cd07f7f3c0" time="1379703975080" ignored="false" />
+    <file path="/ira-bot.js" changelist="ab18dfc1-7c1a-4148-ad1d-41cd07f7f3c0" time="1379704941862" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <file leaf-file-name="ira-bot.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/ira-bot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.025839793">
+            <state line="7" column="30" selection-start="206" selection-end="206" vertical-scroll-proportion="0.090439275">
               <folding />
             </state>
           </provider>
@@ -70,7 +70,7 @@
       <file leaf-file-name="youtube.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/youtube.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+            <state line="7" column="4" selection-start="251" selection-end="271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -442,20 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/storage.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/youtube.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/maps.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -470,9 +456,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/storage.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/youtube.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="251" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ira-bot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.025839793">
+        <state line="7" column="30" selection-start="206" selection-end="206" vertical-scroll-proportion="0.090439275">
           <folding />
         </state>
       </provider>
