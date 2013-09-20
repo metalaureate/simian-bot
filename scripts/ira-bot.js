@@ -9,7 +9,7 @@ module.exports = function(robot) {
        var user_input=msg.match[1];
        var bot_output=eliza.transform(user_input) ;
         console.log(bot_output) ;
-       return; // msg.send(bot_output)
+       return msg.send(bot_output)
     });
 };
 
