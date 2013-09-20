@@ -480,8 +480,8 @@ var elizaKeywords = [
 
     ["xnone", 0, [
         ["*", [
-            "I'm not sure I understand you fully.",
-            "Please go on.",
+            "Huh?",
+            "Please go on, sexy.",
             "What does that suggest to you ?",
             "Do you feel strongly about discussing such things ?",
             "That is interesting.  Please continue.",
