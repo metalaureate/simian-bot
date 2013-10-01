@@ -37,7 +37,8 @@
             cb = faces;
         }
         var safemode=(query.indexOf('+naughty')>0) ? 'off' : 'active';
-
+        console.log(safemode);
+        console.log(query);
         q = {
             v: '1.0',
             rsz: '8',
