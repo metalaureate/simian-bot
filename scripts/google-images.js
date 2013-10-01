@@ -39,7 +39,8 @@
     q = {
       v: '1.0',
       rsz: '8',
-      q: query
+      q: query,
+      safe: 'off'
     };
     if (typeof animated === 'boolean' && animated === true) {
       q.imgtype = 'animated';
