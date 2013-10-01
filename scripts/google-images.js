@@ -36,11 +36,13 @@
         if (typeof faces === 'function') {
             cb = faces;
         }
+        var safemode=(query.indexOf('+naughty')>0) ? 'off' : 'active';
+
         q = {
             v: '1.0',
             rsz: '8',
             q: query,
-            safe: 'off'
+            safe: safemode
         };
         if (typeof animated === 'boolean' && animated === true) {
             q.imgtype = 'animated';
