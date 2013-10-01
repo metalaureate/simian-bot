@@ -40,7 +40,7 @@
       v: '1.0',
       rsz: '8',
       q: query,
-      safe: ''
+      safe: 'disabled'
     };
     if (typeof animated === 'boolean' && animated === true) {
       q.imgtype = 'animated';

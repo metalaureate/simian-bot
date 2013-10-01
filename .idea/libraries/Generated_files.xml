@@ -3,10 +3,22 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/scripts/google-images.js" />
+        <item url="file://$PROJECT_DIR$/scripts/help.js" />
+        <item url="file://$PROJECT_DIR$/scripts/youtube.js" />
+        <item url="file://$PROJECT_DIR$/scripts/auth.js" />
+        <item url="file://$PROJECT_DIR$/scripts/maps.js" />
+        <item url="file://$PROJECT_DIR$/scripts/events.js" />
+        <item url="file://$PROJECT_DIR$/scripts/storage.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/scripts/google-images.js" />
+      <root url="file://$PROJECT_DIR$/scripts/help.js" />
+      <root url="file://$PROJECT_DIR$/scripts/youtube.js" />
+      <root url="file://$PROJECT_DIR$/scripts/auth.js" />
+      <root url="file://$PROJECT_DIR$/scripts/maps.js" />
+      <root url="file://$PROJECT_DIR$/scripts/events.js" />
+      <root url="file://$PROJECT_DIR$/scripts/storage.js" />
     </CLASSES>
     <SOURCES />
   </library>
