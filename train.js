@@ -21,6 +21,7 @@ function initTrainModel(model, data) {
                 logger.log('STATUS',status.trainingStatus);
                 if ((status.trainingStatus=='DONE')) {
                     clearInterval(interval);
+                    logger.log('STATUS',util.inspect(status, { showHidden: true, depth: null }));
                 }
 
             });
@@ -73,4 +74,4 @@ function getModelStatus(model, callback) {
 
 }
 
-initTrainModel(nconf.get('model_id'),'aisha/lang.txt');
+initTrainModel(nconf.get('model_id'),'aisha/msg_training.csv');
