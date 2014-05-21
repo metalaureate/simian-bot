@@ -23,7 +23,22 @@
     "hubot": ">= 2.5.1",
     "hubot-scripts": ">= 2.4.2",
     "hubot-hipchat": "~2.5.1-4",
-      "ntwitter": ""
+      "ntwitter": "",
+      "google-oauth-jwt":"0.1.2",
+      "pg": "*",
+      "any-db-postgres": "*",
+      "underscore": "*",
+      "request": "*",
+      "async": "*",
+      "moment":"*",
+      "aws2js": "*",
+      "nconf": "*",
+      "node-monkey": "*",
+      "sendgrid": "*",
+      "crypto": "*",
+      "imagemagick": "*",
+      "limiter":"*",
+      "xml2js": "*"
   },
   "engines": {
     "node": ">= 0.8.x",

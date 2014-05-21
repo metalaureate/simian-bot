@@ -1,0 +1,39 @@
+<RestClientRequest>
+  <option name="httpMethod" value="GET" />
+  <option name="urlBase" value="https://www.googleapis.com" />
+  <option name="urlPath" value="/prediction/v1.6/projects/989280437849/trainedmodels/list" />
+  <option name="headers">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="Authorization" />
+        <option name="value" value="Bearer ya29.AHES6ZQmt3XYHKHlcGY8bGW9xQhmF6w27R5oL4Lk1LmCaju_L8nN4dU" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="X-JavaScript-User-Agent" />
+        <option name="value" value="Google APIs Explorer" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parameters">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="maxResults" />
+        <option name="value" value="5" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="pageToken" />
+        <option name="value" value="1" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="key" />
+        <option name="value" value="AIzaSyBi20O5kKXEM5KweuY9rMAbaPwzSHdNccM" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parametersEnabled" value="true" />
+  <option name="haveTextToSend" value="false" />
+  <option name="haveFileToSend" value="false" />
+  <option name="isFileUpload" value="false" />
+  <option name="textToSend" value="" />
+  <option name="filesToSend" value="" />
+</RestClientRequest>
