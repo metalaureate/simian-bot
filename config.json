@@ -4,16 +4,17 @@
     "conString": "postgres://shill:@localhost:5432/ira",
     "http_port": 8082,
     "app_config": {
-    "version": "0.01"
-},
+        "version": "0.01"
+    },
+    "model_id": "spam_v1",
     "goauth": {
-    "project_id": "989280437849",
+        "project_id": "989280437849",
         "gservice_email": "989280437849-quvos6ndbf8nf1bkl85nl1povrbp9io7@developer.gserviceaccount.com",
         "key_file": "oauth/goauth.pem",
         "scopes": ["https://www.googleapis.com/auth/prediction",
-        "https://www.googleapis.com/auth/devstorage.read_only",
-        "https://www.googleapis.com/auth/devstorage.full_control",
-        "https://www.googleapis.com/auth/devstorage.read_write"]
+            "https://www.googleapis.com/auth/devstorage.read_only",
+            "https://www.googleapis.com/auth/devstorage.full_control",
+            "https://www.googleapis.com/auth/devstorage.read_write"]
 
-}
+    }
 }

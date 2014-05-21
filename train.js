@@ -72,3 +72,5 @@ function getModelStatus(model, callback) {
         });
 
 }
+
+initTrainModel(nconf.get('model_id'),'aisha/lang.txt');
