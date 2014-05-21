@@ -33,7 +33,7 @@ function getModelPrediction(model,csv, callback) {
             scopes: nconf.get('goauth:scopes')
         }
     }, function (err, res, body) {
-        callack(body);
+        callback(body);
     });
 
 }
