@@ -20,7 +20,7 @@ module.exports = function (robot) {
         });
 
 
-        return msg.send(bot_output)
+        //return msg.send(bot_output)
     });
 };
 
