@@ -10,7 +10,7 @@ module.exports = function (robot) {
 
         var user_input = msg.match[1];
         var bot_output = eliza.transform(user_input);
-        var spam_prediction = spam.predict('demo1', user_input, function () {
+        spam.predict('demo1', user_input, function (spam_prediction) {
             console.log(spam_prediction);
         });
 
