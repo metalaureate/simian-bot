@@ -8,10 +8,13 @@ module.exports = function(robot) {
 
        var user_input=msg.match[1];
        var bot_output=eliza.transform(user_input) ;
-        var isspam=spam.predict('demo1',user_input);
-        bot_output+=JSON.stringify(isspam);
+        var isspam=spam.predict('demo1',user_input, function() {
+            //bot_output+=JSON.stringify(isspam);
+            console.log(bot_output) ;
+        });
 
-        console.log(bot_output) ;
+
+
        return msg.send(bot_output)
     });
 };

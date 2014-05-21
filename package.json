@@ -33,10 +33,6 @@
       "moment":"*",
       "aws2js": "*",
       "nconf": "*",
-      "node-monkey": "*",
-      "sendgrid": "*",
-      "crypto": "*",
-      "imagemagick": "*",
       "limiter":"*",
       "xml2js": "*"
   },
