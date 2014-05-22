@@ -30,10 +30,10 @@ module.exports = function (robot) {
                 }
             });
             if (spam_score>.6) {bot_output="I'm not answering that, you creep!";}
-            meter=((1-(spam_score*1.4))-0.5)*10*2;
+            meter=((1-(spam_score*1.4))-(0.5*1.4))*10*2;
             meter=(meter>10) ? 10 : meter;
             meter=(meter<-10) ? -10 : meter;
-            msg.send('METER READING '+meter+' (-10 to +10) \n\n'+bot_output);
+            msg.send('METER READING '+Math.round(meter,2)+' (-10 to +10) \n\n'+bot_output);
         });
 
 
