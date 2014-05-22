@@ -20,17 +20,16 @@ module.exports = function (robot) {
         spam.predict(nconf.get("model_id"), [user_input], function (spam_prediction) {
             console.log(util.inspect(spam_prediction, { showHidden: true, depth: null }));
             var scores=spam_prediction.outputMulti;
-            var spam_report='';
+            var ham_score=0,spam_score=0;
             _.each(scores, function(s) {
                 if (s.label=='ham') {
-                    spam_report+="HAM " + Math.round(s.score*100,0)+'%';
+                    ham_score=s.score;
                 }
                 if (s.label=='spam') {
-                    spam_report+="SPAM " + Math.round(s.score*100,0)+'% --- ';
+                    spam_score= s.score;
                 }
-
             });
-            msg.send('['+spam_report+'] \n'+bot_output);
+            msg.send('[ HAM '+Math.round(ham_score*100,0)+'% --- SPAM '+Math.round(spam_score*100,0)+'% ] \n\n'+bot_output);
         });
 
 
