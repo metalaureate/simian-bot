@@ -30,7 +30,7 @@ module.exports = function (robot) {
                 }
             });
             if (spam_score>.6) {bot_output="I'm not answering that, you creep!";}
-            msg.send('[ SCORE '+Math.round((0.5-spam_score)*10,0)+' ] \n\n'+bot_output);
+            msg.send('[ SCORE '+Math.round((0.5+(0.5-spam_score))*100,0)+' ] \n\n'+bot_output);
         });
 
 
