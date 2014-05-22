@@ -3,6 +3,9 @@ var eliza = new ira();
 var spam = require('../spam.js');
 var util = require('util');
 var _ = require('underscore');
+var nconf = require('nconf').argv().env().file({
+    file: "../config.json"
+});
 
 module.exports = function (robot) {
 
