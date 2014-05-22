@@ -29,8 +29,8 @@ module.exports = function (robot) {
                     spam_score= s.score;
                 }
             });
-            if (spam_score>.6) {bot_output="I'm not answering that, you spammer!";}
-            msg.send('[ SPAM '+Math.round(spam_score*100,0)+'% ] \n\n'+bot_output);
+            if (spam_score>.6) {bot_output="I'm not answering that, you creep!";}
+            msg.send('[ SCORE '+Math.round((0.5-spam_score)*100,0)+' ] \n\n'+bot_output);
         });
 
 
