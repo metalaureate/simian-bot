@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab18dfc1-7c1a-4148-ad1d-41cd07f7f3c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/ira-bot.js" afterPath="$PROJECT_DIR$/scripts/ira-bot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ira.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="ira-bot.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/ira-bot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5294118" vertical-offset="345" max-vertical-offset="705">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.5294118" vertical-offset="345" max-vertical-offset="735">
+              <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -159,8 +158,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1675" />
-    <option name="y" value="855" />
+    <option name="x" value="1692" />
+    <option name="y" value="572" />
     <option name="width" value="1440" />
     <option name="height" value="746" />
   </component>
@@ -307,7 +306,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1675" y="855" width="1440" height="746" extended-state="6" />
+    <frame x="1692" y="572" width="1440" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -653,8 +652,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ira-bot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5294118" vertical-offset="345" max-vertical-offset="705">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.5294118" vertical-offset="345" max-vertical-offset="735">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
           <folding />
         </state>
       </provider>
