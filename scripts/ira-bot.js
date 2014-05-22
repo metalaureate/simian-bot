@@ -30,7 +30,7 @@ module.exports = function (robot) {
                 }
             });
             if (spam_score>.6) {bot_output="I'm not answering that, you creep!";}
-            meter=Math.round(((((1-spam_score)-0.5)*2)-1),2);
+            meter=Math.round((spam_score-0.5)*10*2,2);
             msg.send('METER READING '+meter+' (-1 to +1) \n\n'+bot_output);
         });
 
