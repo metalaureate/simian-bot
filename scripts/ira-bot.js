@@ -18,10 +18,10 @@ module.exports = function (robot) {
             var scores=spam_prediction.outputMulti;
             var spam_report='';
             _.each(scores, function(s) {
-                if (s.label==1) {
+                if (s.label=='spam') {
                     spam_report+="SPAM " + s.score*100+'   ';
                 }
-                if (s.label==0) {
+                if (s.label=='ham') {
                     spam_report+="HAM " + s.score*100;
                 }
             });
