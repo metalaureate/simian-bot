@@ -29,6 +29,7 @@ module.exports = function (robot) {
                     spam_score= s.score;
                 }
             });
+            if (spam_score>.6) {bot_output="I'm not answering that, you spammer!";}
             msg.send('[ HAM '+Math.round(ham_score*100,0)+'% --- SPAM '+Math.round(spam_score*100,0)+'% ] \n\n'+bot_output);
         });
 
