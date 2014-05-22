@@ -22,12 +22,13 @@ module.exports = function (robot) {
             var scores=spam_prediction.outputMulti;
             var spam_report='';
             _.each(scores, function(s) {
-                if (s.label=='spam') {
-                    spam_report+="SPAM " + Math.round(s.score*100,0)+'% --- ';
-                }
                 if (s.label=='ham') {
                     spam_report+="HAM " + Math.round(s.score*100,0)+'%';
                 }
+                if (s.label=='spam') {
+                    spam_report+="SPAM " + Math.round(s.score*100,0)+'% --- ';
+                }
+
             });
             msg.send('['+spam_report+'] \n'+bot_output);
         });
