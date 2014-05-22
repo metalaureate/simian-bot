@@ -2,6 +2,7 @@ var ira = require('../ira.js');
 var eliza = new ira();
 var spam = require('../spam.js');
 var util = require('util');
+var _ = require('underscore');
 
 module.exports = function (robot) {
 
@@ -13,7 +14,7 @@ module.exports = function (robot) {
         var user_input = msg.match[1];
         console.log(user_input);
         var bot_output = eliza.transform(user_input);
-        spam.predict('demo1', [user_input], function (spam_prediction) {
+        spam.predict(nconf.get("model_id"), [user_input], function (spam_prediction) {
             console.log(util.inspect(spam_prediction, { showHidden: true, depth: null }));
             var scores=spam_prediction.outputMulti;
             var spam_report='';
