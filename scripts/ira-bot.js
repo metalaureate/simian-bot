@@ -31,8 +31,10 @@ module.exports = function (robot) {
             });
             if (spam_score>.6) {bot_output="I'm not answering that, you creep!";}
             meter=((1-(spam_score))-(0.5))*10*2;
+            meter=meter*1.4; //scale
+            var sign=(meter>0) ? '+' : '';
 
-            msg.send('METER READING '+Math.round(meter,2)+' (-10 to +10) \n\n'+bot_output);
+            msg.send('OUTCOME SCORE '+sign+' '+Math.round(meter,2)+'    (-10 to +10) \n\n'+bot_output);
         });
 
 
