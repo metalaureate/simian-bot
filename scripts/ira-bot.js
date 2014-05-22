@@ -20,7 +20,7 @@ module.exports = function (robot) {
         spam.predict(nconf.get("model_id"), [user_input], function (spam_prediction) {
             console.log(util.inspect(spam_prediction, { showHidden: true, depth: null }));
             var scores=spam_prediction.outputMulti;
-            var ham_score=0,spam_score=0;
+            var ham_score=0,spam_score= 0,meter=0;
             _.each(scores, function(s) {
                 if (s.label=='ham') {
                     ham_score=s.score;
@@ -30,7 +30,8 @@ module.exports = function (robot) {
                 }
             });
             if (spam_score>.6) {bot_output="I'm not answering that, you creep!";}
-            msg.send('[ SCORE '+Math.round((0.5+(0.5-spam_score))*100,0)+' ] \n\n'+bot_output);
+            meter=((spam_score-0.5)*2);
+            msg.send('[ METER READING '+meter+' ] \n\n'+bot_output);
         });
 
 
