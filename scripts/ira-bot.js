@@ -23,13 +23,13 @@ module.exports = function (robot) {
             var spam_report='';
             _.each(scores, function(s) {
                 if (s.label=='spam') {
-                    spam_report+="SPAM " + s.score*100+'   ';
+                    spam_report+="SPAM " + Math.round(s.score*100,0)+'% --- ';
                 }
                 if (s.label=='ham') {
-                    spam_report+="HAM " + s.score*100;
+                    spam_report+="HAM " + Math.round(s.score*100,0)+'%';
                 }
             });
-            msg.send('['+spam_report+'] \n\n'+bot_output);
+            msg.send('['+spam_report+'] \n'+bot_output);
         });
 
 
