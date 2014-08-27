@@ -1,7 +1,7 @@
 {
     "DEBUG_MODE": true,
     "ENV": "development",
-    "conString": "postgres://shill:@localhost:5432/ira",
+    "conString": "postgres://shill:@localhost:5432/training",
     "http_port": 8082,
     "app_config": {
         "version": "0.01"

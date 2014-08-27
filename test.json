@@ -1,0 +1,23 @@
+{"FileName": "php532Zx2", "FileDateTime": 1400882728, "FileSize": 477794, "FileType": 2, "MimeType": "image/jpeg", "SectionsFound": "ANY_TAG,+IFD0,+THUMBNAIL,+EXIF,+INTEROP", "COMPUTED": {
+    "Height": 960,
+    "Width": 1280,
+    "IsColor": 1,
+    "ByteOrderMotorola": 0,
+    "ApertureFNumber": "f/2.8",
+    "UserComment": "User+comments",
+    "UserCommentEncoding": "ASCII",
+    "Thumbnail.FileType": 2,
+    "Thumbnail.MimeType": "image/jpeg",
+    "Thumbnail.Height": 120,
+    "Thumbnail.Width": 160
+}, "ImageWidth": 1280, "ImageLength": 960, "Make": "SAMSUNG", "Model": "GT-I9300", "Orientation": 1, "XResolution": "72/1", "YResolution": "72/1", "ResolutionUnit": 2, "Software": "I9300XXEMH1", "DateTime": "2013:11:28+19:37:17", "YCbCrPositioning": 1, "Exif_IFD_Pointer": 224, "THUMBNAIL": {
+    "ImageWidth": 160,
+    "ImageLength": 120,
+    "Compression": 6,
+    "Orientation": 1,
+    "XResolution": "72/1",
+    "YResolution": "72/1",
+    "ResolutionUnit": 2,
+    "JPEGInterchangeFormat": 880,
+    "JPEGInterchangeFormatLength": 8020
+}, "ExposureTime": "1/16", "FNumber": "28/10", "ExposureProgram": 3, "ISOSpeedRatings": 1000, "ExifVersion": "0220", "DateTimeOriginal": "2013:11:28+19:37:17", "DateTimeDigitized": "2013:11:28+19:37:17", "ComponentsConfiguration": "u0001u0002u0003u0000", "ExposureBiasValue": "0/10", "MeteringMode": 2, "FocalLength": "25/10", "MakerNote": "u0007u0000u0001u0000u0007u0000u0004u0000u0000u00000100u0002u0000u0004u0000u0001u0000u0000u0000u0000+u0001u0000@u0000u0004u0000u0001u0000u0000u0000u0000u0000u0000u0000Pu0000u0004u0000u0001u0000u0000u0000u0001u0000u0000u0000u0000u0001u0003u0000u0001u0000u0000u0000u0000u0000u0000u0000u0000u0004u0000u0001u0000u0000u0000u0000u0000u0000u0000u0010u0000u0005u0000u0001u0000u0000u0000Zu0000u0000u0000u0000u0000u0000u0000u0000u0000u0000u0000u0000u0000u0000u0000", "UserComment": "ASCIIu0000u0000u0000User+comments", "FlashPixVersion": "0100", "ColorSpace": 1, "ExifImageWidth": 1280, "ExifImageLength": 960, "InteroperabilityOffset": 720, "ExposureMode": 0, "WhiteBalance": 0, "SceneCaptureType": 0, "ImageUniqueID": "S5K6A3", "InterOperabilityIndex": "R98", "InterOperabilityVersion": "0100"}

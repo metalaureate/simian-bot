@@ -17,6 +17,7 @@ module.exports = function (robot) {
         var user_input = msg.match[1];
         console.log(user_input);
         var bot_output = eliza.transform(user_input);
+        /*
         spam.predict(nconf.get("model_id"), [user_input], function (spam_prediction) {
             console.log(util.inspect(spam_prediction, { showHidden: true, depth: null }));
             var scores=spam_prediction.outputMulti;
@@ -36,9 +37,9 @@ module.exports = function (robot) {
 
             msg.send('OUTCOME SCORE '+sign+' '+Math.round(meter,2)+'    (-10 to +10) \n\n'+bot_output);
         });
+*/
 
-
-        //return msg.send(bot_output)
+        return msg.send(bot_output)
     });
 };
 

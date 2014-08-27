@@ -34,7 +34,8 @@
       "aws2js": "*",
       "nconf": "*",
       "limiter":"*",
-      "xml2js": "*"
+      "xml2js": "*",
+      "xregexp": "*"
   },
   "engines": {
     "node": ">= 0.8.x",
